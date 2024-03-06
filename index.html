@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="style.css">
+    <audio src="audio/msc.wav"></audio>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Jogo da Memória</h1>
+        </div>
+
+        <div class="regras">
+            <br><br>
+            <p>Regras:</p>
+            <br>
+            <ul>
+                <li>O jogo consiste em virar duas cartas, se forem iguais permanecerão viradas e é considerado acerto,
+                    se
+                    não, será
+                    considerada uma jogada errada e as cartas irão desvirar.</li>
+                <br>
+                <li>A cada acerto, serão considerados <span class="destaque">10 pontos</span>.</li>
+                <br>
+                <li>A cada erro, serão desconsiderados <span class="destaque">05 pontos</span>.</li>
+                <br>
+                <li>O jogo poderá ser reiniciado a qualquer momento, apenas clicando no botão ao fim da página.</li>
+                <br><br>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <br><br><br><br>
+        <div class="pts">
+            <h4>Pontuação: <span class="destaque" id="pontuacao"></span></h4>
+        </div>
+
+        <div class="container">
+            <div class="grade" id="jogo"></div>
+        </div>
+
+        <br>
+
+        <div class="reiniciar">
+            <button id="reiniciarJogo">CLIQUE PARA REINICIAR</button>
+        </div>
+        <br><br><br><br>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <h3>Desenvolvido por:</h3>
+            <br>
+            <h4>Caique Zanatta - <span class="destaque">32011BSI024</span></h4>
+            <h4>Eduardo Alvim - <span class="destaque">31911BSI004</span></h4>
+            <h4>Victor Brizante - <span class="destaque">31911BSI019</span></h4>
+            <br>
+            <h4>Programação para Internet I - 2022</h4>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
